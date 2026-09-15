@@ -1,6 +1,7 @@
 # GPU Driver Container
 
 [![build status](https://gitlab.com/nvidia/container-images/driver/badges/master/pipeline.svg)](https://gitlab.com/nvidia/container-images/driver/-/commits/master)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fabrarshivani%2Fgpu-driver-container.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fabrarshivani%2Fgpu-driver-container?ref=badge_shield)
 
 The NVIDIA GPU driver container allows the provisioning of the NVIDIA driver through the use of containers.
 
@@ -23,6 +24,9 @@ docker build -t mydriver --build-arg DRIVER_VERSION="510.85.02" --build-arg CUDA
 
 [Apache License 2.0](LICENSE)
 [License For Customer Use of NVIDIA Software](https://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us)
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fabrarshivani%2Fgpu-driver-container.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fabrarshivani%2Fgpu-driver-container?ref=badge_large)
 
 ## Contributions
 [Read the document on contributions](CONTRIBUTING.md). 
